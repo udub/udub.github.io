@@ -9,7 +9,7 @@
       <h3 id="demo"></h3>
     </div>
     <iframe width="420" height="315"
-    src="http://www.youtube.com/v/yeqe_XKWs3o?autoplay=1?start=3726" id="time">
+    src="http://www.youtube.com/v/yeqe_XKWs3o?autoplay=1?start=3726" id="gop">
     </iframe>
     <iframe width="420" height="315"
     src="http://www.youtube.com/v/yeqe_XKWs3o?start=3726">
@@ -19,11 +19,17 @@
     </p>
     <a href="http://www.google.com"> Link </a>
     <p id="demo"></p>
-    <p>debate</p>
+    <p onclick="myFunction(500)">debate</p>
     
     <script>
     document.getElementById("demo").innerHTML = "Lucid dreams of dank memes";
-    var debate = "http://www.youtube.com/v/yeqe_XKWs3o";
+    var time = 420;
+    function myFunction(int time){
+      var video = document.getElementById('gop');
+      video.src = "http://www.youtube.com/v/yeqe_XKWs3o?autoplay=1?start=" + time
+      var url = "http://www.youtube.com/v/yeqe_XKWs3o?autoplay=1?start=" + time
+    }
+    <button type="button" onclick="myFunction(time)">Click Me!</button>
     </script>
   </body>
 </html>
