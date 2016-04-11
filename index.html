@@ -22,15 +22,21 @@
     <p onclick="myFunction(500)">debate</p>
     <button type="button" onclick="myFunction(time)">Click Me!</button>
     <script>
-    document.getElementById("demo").innerHTML = "Lucid dreams of dank memes";
-    var time = 420;
-    function myFunction(int time){
-      var video = document.getElementById('gop');
-      var url = "http://www.youtube.com/v/yeqe_XKWs3o?autoplay=1?start=" + time
-      video.src = url
+    
+    <form action="demo_form.asp">
+      Chat: <input type="text" name="chat"><br>
+      <input type="submit" value="Submit">
+    </form>
+    
+    <p id="demo"></p>
+    
+    function myFunction(String comment){
+      document.getElementById("demo").innerHTML = comment;
     }
     
     </script>
+    
+    
     <button type="button" onclick="myFunction(time)">Click Me!</button>
   </body>
 </html>
