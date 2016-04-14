@@ -1,5 +1,6 @@
 alert("please work");
 
-function myFunction(String comment){
+function myFunction(){
+  alert("please work!");
   document.getElementById("demo").innerHTML = "comment";
 }
