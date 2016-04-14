@@ -1,6 +1,7 @@
-alert("please work");
+alert("Welcome to the chat box!");
 
 function myFunction(){
-  alert("please work!");
-  document.getElementById("demo").innerHTML = "comment";
+  var textInput = document.getElementById("textbox");
+  var comment = document.getElementById("comment");
+  comment.innerHTML = textInput.value;
 }
