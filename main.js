@@ -1,4 +1,4 @@
-alert("Welcome to the chat box!");
+
 
 function myFunction(){
   var textInput = document.getElementById("textbox");
