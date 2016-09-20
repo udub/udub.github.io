@@ -7,3 +7,7 @@ function myFunction(){
   comment.innerHTML = chatResult;
   document.getElementById("video").currentTime = 14;
 }
+
+function myFunction1(){
+  document.getElementById("video").currentTime = 18;
+}
