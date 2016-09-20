@@ -9,5 +9,5 @@ function myFunction(){
 }
 
 function myFunction1(){
-  document.getElementById("video").currentTime = 18;
+  document.getElementById("video").currentTime = 19;
 }
