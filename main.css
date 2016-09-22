@@ -3,7 +3,9 @@
 }
 #video {
   float: left;
+  clear: both;
 }
 #timepoints {
   float: left;
+  clear: both;
 }
