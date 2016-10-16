@@ -22,7 +22,7 @@
       <button type="button" onclick="myFunction1();">"So Inconvenient"</button>
       <br>
       
-      <form method="POST" action="index.php" enctype="multipart/form-data">
+      <form method="POST" action="getdata.php" enctype="multipart/form-data">
         <input type="file" name="myimage">
         <input type="submit" name="submit_image" value="Upload">
       </form>
